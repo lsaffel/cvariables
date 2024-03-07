@@ -1,1 +1,1 @@
-# cvariables
+A C++ program using variables
