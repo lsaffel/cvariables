@@ -3,10 +3,15 @@ using namespace std;
 
 int main()
 {
-    float annualSalary = 50000.99;
+    float annualSalary;
+    cout << "Please enter your annual salary ";
+    cin >> annualSalary;
     float monthlySalary = annualSalary / 12;
 
-    cout << "Your monthly salary is " << monthlySalary;
+    cout << "Your monthly salary is " << monthlySalary << endl;
+    cout << "In 10 years, you will earn " << annualSalary * 10;
+
+    char character = 'a';
 
     // system("pause>0");    this command does not work for me. It says "sh: pause: command not found"
 }
